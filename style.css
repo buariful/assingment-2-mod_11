@@ -22,6 +22,13 @@ ul{
 .section_padding{
     padding: 0 6%;
 }
+.section_title h2 {
+    color: #3A3A3A;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 28px;
+    margin-bottom: 40px;
+}
 /* =====================
     header
 =======================*/
@@ -111,13 +118,7 @@ section.popular {
     column-gap: 30px;
     row-gap: 30px;
 }
-.popular_title h2 {
-    color: #3A3A3A;
-    text-align: center;
-    text-transform: capitalize;
-    font-size: 28px;
-    margin-bottom: 40px;
-}
+
 
 .blog_box {
     border-radius: 10px;
@@ -132,11 +133,11 @@ section.popular {
 .blog_box h2 {
     color: #18191F;
     margin: 16px 0 10px;
-    font-size: 1.8em;
+    font-size: 1.4em;
 }
 .blog_box h3{
     color: rgba(0, 0, 0, 0.87);
-    font-size: 1.2em;
+    font-size: 1.1em;
     margin-bottom: 4px;
 }
 
@@ -152,8 +153,31 @@ span.box_icon i {
     font-weight: 600;
     color: #787885;
 }
+.read_more a {
+    color: #e02c6d;
+    font-size: .9em;
+    font-weight: 600;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: block;
+}
 
-
+.read_more{
+    text-align:right;
+}
+/* ===================
+    about me
+======================*/
+.about_text p{
+    text-align: center;
+    width:70%;
+    margin: 0 auto;
+    font-weight: 500;
+    line-height: 1.3em;
+}
+.about_text{
+    margin-bottom: 80px;
+}
 /* ===================
     footer
 ====================*/
@@ -174,6 +198,23 @@ section.footer p {
     font-weight: 300;
     line-height: 1.6em;
 }
+.footer_menu ul {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.footer_menu ul li a {
+    color: #fff;
+    background: #22203B;
+    padding: 10px 12px;
+    display: block;
+    border-radius: 15px;
+}
+.socialIcon_margin{
+    margin: 0 8px;
+}
+
 
 /* ===================
  responsive design
